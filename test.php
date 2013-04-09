@@ -4,6 +4,6 @@
  */
 require_once dirname(__FILE__) . "/PinYin.php";
 
-$keyword = "黄23老师ere很犀利，number1";
+$keyword = "黄老师很犀利，number1";
 $str = PinYin::getPinyin($keyword);
 echo $str;
