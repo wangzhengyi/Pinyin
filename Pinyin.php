@@ -7,7 +7,7 @@ require_once dirname(__FILE__) . "/PyTable.php";
  * @author wzy
  *        
  */
-class PinYin
+class Pinyin
 {
 
     /**
