@@ -58,7 +58,7 @@ class Pinyin
      */
     private static function strSplitPhp5Utf8 ($str)
     {
-        // 字符串首选转换成utf-8编码
+        // 字符串首先转换成utf-8编码
         $str = mb_convert_encoding($str, "utf-8", "auto");
         
         // 根据UTF-8编码字节含义划分成单个编码数组
