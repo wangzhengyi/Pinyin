@@ -8,7 +8,7 @@ require_once dirname(__FILE__) . "/Pinyin.php";
 $s_br = (php_sapi_name() == "cli") ? "\n" : "<br>";
 
 // 测试汉字转拼音
-$keyword = "黄老师很犀利，number1";
+$keyword = "黄老师1232很dsdf犀利，number1";
 $str = Pinyin::getPinyin($keyword);
 echo $str . $s_br;
 
