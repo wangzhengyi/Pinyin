@@ -2,7 +2,7 @@
 require_once dirname(__FILE__) . "/PyDict.php";
 
 /**
- * Description:汉字拼音转换类
+ * 汉字拼音转换类
  *
  * @author wzy
  *        
@@ -11,10 +11,10 @@ class Pinyin
 {
 
     /**
-     * Description:汉字拼音转换程序
+     * 汉字拼音转换程序(支持多音字)
      *
      * @param string $keyword            
-     * @return Ambigous <string, unknown>
+     * @return array
      */
     public static function getPinyin ($keyword, $type = null)
     {
@@ -78,10 +78,10 @@ class Pinyin
     }
 
     /**
-     * Description:根据UTF-8编码字节含义将字符串划分成单个UTF-8编码数组
+     * 根据UTF-8编码字节含义将字符串划分成单个UTF-8编码数组
      *
      * @param string $str            
-     * @return multitype:
+     * @return array $array
      */
     private static function strSplitPhp5Utf8 ($str)
     {

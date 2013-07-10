@@ -1,6 +1,6 @@
 <?php
 /**
- * Description:拼音转换类测试程序
+ * 拼音转换类测试程序
  */
 require_once dirname(__FILE__) . "/Pinyin.php";
 
